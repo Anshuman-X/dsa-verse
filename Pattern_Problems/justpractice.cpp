@@ -3,24 +3,15 @@ using namespace std;
 
 int main()
 {
-    int rows = 5;
-
-    for (int i = 1; i <= rows; i++) // rows
+    int row,col;
+    for(row=1;row<=5;row++)
     {
-        // Print spaces
-        for (int space = 1; space <= rows - i; space++)
-        {
-            cout << "  "; // Two spaces for better alignment
-        }
+        for(col=1;col<=5-row;col++)
+        cout<<"  ";
 
-        // Print numbers in reverse
-        for (int j = i; j >= 1; j--)
-        {
-            cout << j << " ";
-        }
+        for(col=5;col>=5-row+1;col--)
+        cout<<col<<" ";
 
-        cout << endl;
+    cout<<endl;
     }
-
-    return 0;
 }
