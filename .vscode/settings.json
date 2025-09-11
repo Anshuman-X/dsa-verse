@@ -1,5 +1,8 @@
 {
   "files.associations": {
     "iostream": "cpp"
-  }
+  },
+  "C_Cpp.errorSquiggles": "disabled",
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.suggest.selectionMode": "never"
 }
